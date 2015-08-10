@@ -1,0 +1,5 @@
+mysql-hyperloglog (0~150720-1) unstable; urgency=low
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Jochen Radmacher <j.radmacher@xplosion.de>  Mon, 10 Aug 2015 17:54:14 +0200

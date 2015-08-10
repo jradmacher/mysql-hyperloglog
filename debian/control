@@ -1,0 +1,17 @@
+Source: mysql-hyperloglog
+Section: libs
+Priority: optional
+Maintainer: Jochen Radmacher <j.radmacher@xplosion.de>
+Build-Depends: debhelper (>= 9), cmake, libmysqlclient-dev
+Standards-Version: 3.9.6
+Homepage: <insert the upstream URL, if relevant>
+#Vcs-Git: git://anonscm.debian.org/collab-maint/mysql-hyperloglog.git
+#Vcs-Browser: https://anonscm.debian.org/gitweb/?p=collab-maint/mysql-hyperloglog.git;a=summary
+
+Package: mysql-hyperloglog-plugin
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: A MySQL plugin for the HyperLogLog Algorithm
+ When installed, the plugin adds several aggregate functions to mysql, that allows you to estimate the distinct count of large datasets.
+ You can use it as a replacement for count(distinct). However, the real power of the plugin is by storing the hyperloglog result in an aggregate table, which allows you to get an estimate of the distinct count from the aggregate.

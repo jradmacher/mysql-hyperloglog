@@ -18,3 +18,7 @@ libmysqlhll/mysqlhll.dir/
 Debug/
 Release/
 x64/
+debian/mysql-hyperloglog-plugin/
+debian/mysql-hyperloglog-plugin.debhelper.log
+debian/mysql-hyperloglog-plugin.substvars
+debian/files
